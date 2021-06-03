@@ -48,7 +48,7 @@ namespace RemoteControl
             return binaryFormatter.Deserialize(netStream);
         }
 
-        // STUDY THE CODE
+
         [StructLayout(LayoutKind.Sequential)]
         struct CURSORINFO
         {

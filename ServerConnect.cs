@@ -137,7 +137,7 @@ namespace RemoteControl
                         try
                         {
 
-                            deltaPoint.X = endingPoint.X - startingPoint.X;                                         // how to handle delta properly. AKA how to structure
+                            deltaPoint.X = endingPoint.X - startingPoint.X;                                         
                             deltaPoint.Y = endingPoint.Y - startingPoint.Y;
 
                             startingPoint.X = Cursor.Position.X;
